@@ -1,0 +1,30 @@
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.App {
+    float: left;
+}
+
+span {
+    display: inline-block;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+    border-bottom-width: 10px;
+    font-size: 50px;
+}
+
+button:hover {
+    border-bottom-width: 0px;
+    padding-bottom: 10px;
+}
