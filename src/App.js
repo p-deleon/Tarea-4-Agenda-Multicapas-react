@@ -36,6 +36,7 @@ class App extends React.Component {
 
           
         <div className = "App">
+            <h1>Agenda Multicapas React</h1>
             <table>
               <thead><tr><th>Nombre</th><th>Apellido</th><th>Contacto</th></tr></thead>
             <tbody>{

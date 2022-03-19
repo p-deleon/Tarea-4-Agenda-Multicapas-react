@@ -1,9 +1,9 @@
 import React,{useState,useRef} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Todo from './Todo';
 import reportWebVitals from './reportWebVitals';
-import Enviar from './enviar';
+
 
 
 
@@ -12,12 +12,7 @@ ReactDOM.render(
 
 
   <React.StrictMode>
-    <h1>Agenda Multicapas React</h1>
-    <App />
-    <Enviar/>
-
-    
-   
+  <Todo/>
   
   </React.StrictMode>,
   document.getElementById('root')
